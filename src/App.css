@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Magistral";   /*Can be any text*/
+  src: local("Magistral-Bold"),
+    url("./font/Magistral-Bold.ttf") format("truetype");
+}
+
+:root {
+  --text-color: #333333;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

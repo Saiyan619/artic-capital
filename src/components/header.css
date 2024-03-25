@@ -1,0 +1,161 @@
+
+.main-header{
+    position: relative;
+   background-image: url(../assets/header-bg.png);
+   height: 120vh;
+   background-position: center;
+   background-size: cover;
+   font-family: "Magistral";
+   overflow: hidden;
+}
+
+.logo-container img{
+    width: 120px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 10px;
+}
+ul{
+    display: flex;
+}
+.sub-nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: small;
+    margin-left: 30px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+.nav-btn{
+    background-color: #8dc4fc;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 100px;
+    font-family: "Magistral";
+}
+.hamburger{
+   display: none;
+}
+
+/* ------- HERO TEXT------ */
+
+.hero-container{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+}
+.hero-p-text{
+    color: #8dc4fc;
+    font-size: 30px;
+}
+.hero-btn{
+    background-color: #8dc4fc;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 100px;
+    margin-top: 20px;
+    font-family: "Magistral";
+}
+
+
+@media screen and (max-width: 800px){
+    .logo-container img{
+        width: 120px;
+    }
+    
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 80px;
+        padding: 10px 50px 10px;
+        position: relative;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hamburger{
+        z-index: 50000;
+        display: block;
+    }
+    .sub-nav{
+        
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        text-align: left;
+        background-color: white;
+        width: 0vw;
+        height: 100vh;
+        padding: 0px;
+        overflow: hidden;
+        transition: .5s;
+    }.sub-nav_active{
+        z-index: 20000;
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        text-align: left;
+        background-color: white;
+        width: 50vw;
+        height: 100vh;
+        padding: 10px;
+        overflow: hidden;
+        transition: .5s;
+    }
+    li{
+        text-decoration: none;
+        list-style: none;
+        color: black;
+        font-size: small;
+        margin-left: 30px;
+        text-transform: capitalize;
+        margin-top: 50px;
+    }
+    
+    
+    .nav-btn{
+        background-color: #8dc4fc;
+        text-transform: capitalize;
+        border: none;
+        outline: none;
+        padding: 10px 40px;
+        color: white;
+        border-radius: 100px;
+        font-family: "Magistral";
+    }
+    }

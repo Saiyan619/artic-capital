@@ -21,7 +21,7 @@ const OurPrinciples = () => {
          
           <div className='sub-ourprinciples-container'>
           <div className='illustration-container'>
-              <img className='illustration' src="/src/assets/principles-illustration.png" alt="illustration" />
+              <img className='illustration' src="./principles-illustration.png" alt="illustration" />
           </div>
           
           <div>

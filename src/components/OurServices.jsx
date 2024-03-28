@@ -10,27 +10,27 @@ const OurServices = () => {
       })
     const services = [
         {
-            icon:'/src/assets/inv-5.svg',
+            icon:'./inv-5.svg',
             serviceName: 'Global Brokerage',
             serviceDetails: 'Voice and Electronic Brokerage'
         },
         {
-            icon:'/src/assets/inv-4.svg',
+            icon:'./inv-4.svg',
             serviceName: 'Fixed Income Trading',
             serviceDetails: 'Exchange and OTC traded Markets'
         },
         {
-            icon:'/src/assets/inv-3.svg',
+            icon:'./inv-3.svg',
             serviceName: 'Asset Management',
             serviceDetails: 'Advisory and Discretionary Managements'
         },
         {
-            icon:'/src/assets/inv-2.svg',
+            icon:'./inv-2.svg',
             serviceName: 'Structured Solutions',
             serviceDetails: 'Structured Products and AMCs'
         },
         {
-            icon:'/src/assets/inv-6.svg',
+            icon:'./inv-6.svg',
             serviceName: 'Funds Platform',
             serviceDetails: 'Managed Strategies and Securitization'
         }

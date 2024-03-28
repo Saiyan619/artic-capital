@@ -11,8 +11,8 @@ const Footer = () => {
     <footer>
       
           <div className='icons-container'>
-              <img src="/src/assets/icons8-linkedin(1).svg" alt="linkedin" />
-              <img src="/src/assets/icons8-telegram(2).svg" alt="telegram" />
+              <img src="./icons8-linkedin(1).svg" alt="linkedin" />
+              <img src="./icons8-telegram(2).svg" alt="telegram" />
           </div>
 
           <div className='sub-footer'>

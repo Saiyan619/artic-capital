@@ -8,7 +8,7 @@ const OurTeam = () => {
           
          
               <div>
-                  <img src="./1 - team-avatar-1-170x170.jpg" alt="image" />
+                  <img src="./assets/1 - team-avatar-1-170x170.jpg" alt="image" />
                   <p>Antov Alikov</p>
                   <p>Founder of Artic Capital</p>
               </div>
@@ -19,7 +19,7 @@ const OurTeam = () => {
 
               <div>
               
-                  <img src="./2 - moiseev-170x170.png" alt="image" />
+                  <img src="./assets/2 - moiseev-170x170.png" alt="image" />
                   <p>Antov Alikov</p>
                   <p>Member of the Advisory Board</p>
               </div>

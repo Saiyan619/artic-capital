@@ -11,13 +11,13 @@ const Footer = () => {
     <footer>
       
           <div className='icons-container'>
-              <img src="./icons8-linkedin(1).svg" alt="linkedin" />
-              <img src="./icons8-telegram(2).svg" alt="telegram" />
+              <img src="./assets/icons8-linkedin(1).svg" alt="linkedin" />
+              <img src="./assets/icons8-telegram(2).svg" alt="telegram" />
           </div>
 
           <div className='sub-footer'>
               <div>
-                  <img src="/src/assets/ac-white.png" alt="logo" />
+                  <img src="./assets/ac-white.png" alt="logo" />
               </div>
 
               <div className='footer-list'>

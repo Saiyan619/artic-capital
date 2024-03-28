@@ -26,7 +26,7 @@ const Header = () => {
     <header id='head' className='main-header'>
           <nav className='nav'>
               <div className='logo-container'>
-                  <img src="./ac-white.png" alt="header-logo" />
+                  <img src="./assets/ac-white.png" alt="header-logo" />
               </div>
               
               <div className={isOpen ? 'sub-nav_active' : 'sub-nav'}>

@@ -99,7 +99,7 @@ li{
     height: calc(100% - 9.9px);
     border: 1px solid transparent;
     border-radius: 50%;
-    border-top-color: #b0c8e0;
+    border-top-color: #b1c5d86a;
     animation: spin 15s cubic-bezier(0.17, 0.49, 0.96, 0.79) infinite;
   }
   

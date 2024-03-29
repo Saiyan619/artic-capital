@@ -36,7 +36,7 @@ const Footer = () => {
                   </ul>
               </div>
 
-              <div onClick={scrollToHeader}>
+              <div className="to-the-top-container" onClick={scrollToHeader}>
                   <span>to the top</span>
               </div>
           </div>

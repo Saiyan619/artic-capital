@@ -71,11 +71,15 @@ ul{
         text-align: center;
     }
 
+    .to-the-top-container{
+        margin-top: 20px;
+    }
+
     .sub-footer span{
         color: white;
         font-family: 'Magistral';
         cursor: pointer;
-        margin-top: 10px;
+        margin-top: 50px;
         text-transform: uppercase;
         margin-left: 30px;
         

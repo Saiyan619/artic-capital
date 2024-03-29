@@ -59,17 +59,65 @@ li{
     color: white;
     border-radius: 100px;
     font-family: "Magistral";
+}.nav-btn:hover{
+    background-color: #5c9cdc;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 100px;
+    font-family: "Magistral";
 }
 .hamburger{
    display: none;
 }
 
+
+
+
 /* ------- HERO TEXT------ */
+
+.main-spinner-container{
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    z-index: 100;
+}
+.spinner-container {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: 30px auto;
+    overflow: hidden;
+    scale: 2.5;
+    }
+  
+  .spinner {
+    position: absolute;
+    width: calc(100% - 9.9px);
+    height: calc(100% - 9.9px);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    border-top-color: #b0c8e0;
+    animation: spin 15s cubic-bezier(0.17, 0.49, 0.96, 0.79) infinite;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
 
 .hero-container{
     position: absolute;
     top: 30%;
     left: 15%;
+    z-index: 50000;
 }
 
 h1{
@@ -82,6 +130,17 @@ h1{
 }
 .hero-btn{
     background-color: #8dc4fc;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 100px;
+    margin-top: 20px;
+    font-family: "Magistral";
+}
+.hero-btn:hover{
+    background-color: #5c9cdc;
     text-transform: capitalize;
     border: none;
     outline: none;

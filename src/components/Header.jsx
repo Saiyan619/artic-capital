@@ -47,6 +47,22 @@ const Header = () => {
           </div>
 
       </nav>
+
+      <div className='main-spinner-container'>
+      <div class="spinner-container">
+  <div class="spinner">
+   <div class="spinner">
+    <div class="spinner">
+      <div class="spinner">
+        <div class="spinner">
+            <div class="spinner"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
+        </div>
       
       <div className='hero-container'>
         <h1>ARCTIC CAPITAL</h1>

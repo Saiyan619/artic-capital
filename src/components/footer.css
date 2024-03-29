@@ -26,7 +26,7 @@ footer{
     cursor: pointer;
     margin-top: 10px;
 }.sub-footer span:hover{
-    color: blue;
+    color: rgb(189, 189, 230);
     font-family: 'Magistral';
     cursor: pointer;
 }
@@ -80,7 +80,7 @@ ul{
         margin-left: 30px;
         
     }.sub-footer span:hover{
-        color: blue;
+        color: rgb(189, 189, 230);
         font-family: 'Magistral';
         cursor: pointer;
     }

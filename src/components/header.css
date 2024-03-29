@@ -37,16 +37,20 @@ li{
     text-transform: capitalize;
     cursor: pointer;
     transition: 1s;
-}li:hover{
-    text-decoration: none;
-    list-style: none;
-    color: white;
-    font-size: small;
-    margin-left: 30px;
-    text-transform: capitalize;
-    cursor: pointer;
-    border-bottom: 2px solid #8dc4fc;
-    transition: 1s;
+    position: relative;
+}
+li::before{
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #8dc4fc;
+    transition: width 0.3s ease; /* Smooth transition effect */
+}
+li:hover::before{
+    width: 100%;
 }
 
 
